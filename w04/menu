@@ -9,7 +9,7 @@ int main()
     {
         printf("main menu\n");
         printf("1. rectangle\n");
-        printf("2. vertial tangle\n");
+        printf("2. vertical tangle\n");
         printf("3. exit\n");
         printf("==> ");
         scanf("%d", &choice);
