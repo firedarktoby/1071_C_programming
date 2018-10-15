@@ -10,4 +10,12 @@ Week 1
 Week 2
 * leap.cpp
 * seconds.cpp
+
+
+Week 3
+*BMI.cpp	BMI.cpp
+* Convert seconds using while loop.cpp	
+* leap year 2.cpp	leap year 2.cpp	
+* sum.cpp
+
    
