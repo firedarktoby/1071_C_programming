@@ -1,4 +1,4 @@
-## 1071_C_programming
+# 1071_C_programming
 
 Week 1
 * roots.cpp	
@@ -22,3 +22,11 @@ Week 4
 * funtion menu fin.cpp
 * menu origin.cpp
 * sum new.cpp
+
+
+Week 5
+* menu++.cpp
+* simulate test.cpp
+
+practice
+* bank function
