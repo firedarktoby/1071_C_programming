@@ -1,10 +1,9 @@
-# 1071_C_programming
+## 1071_C_programming
 
 Week 1
 * roots.cpp	
 * tempconvert.cpp	
 * welcome.cpp
-
 
 
 Week 2
@@ -18,4 +17,8 @@ Week 3
 * leap year 2.cpp	leap year 2.cpp
 * sum.cpp
 
-   
+
+Week 4
+* funtion menu fin.cpp
+* menu origin.cpp
+* sum new.cpp
