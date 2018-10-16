@@ -17,7 +17,7 @@ void sorting(int d[],int n) {
 
 void prArray(int d[],int n){
 	for(int i=0;i<n;i++)
-	printf("%3d",d[i]);
+		printf("%3d",d[i]);
 	printf("\n");
 }
 
