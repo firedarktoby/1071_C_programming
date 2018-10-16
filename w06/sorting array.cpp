@@ -31,7 +31,7 @@ int main() {
 	printf("Original: ");
 	prArray(d,n);
 	sorting(d,n);
-	printf("before: ");
+	printf("before:   ");
 	prArray(d,n);
 
 }
