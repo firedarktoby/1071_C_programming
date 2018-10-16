@@ -1,7 +1,7 @@
 # 1071_C_programming
 
 Week 1
-* roots.cpp	
+* [roots.cpp]	(https://github.com/firedarktoby/1071_C_programming/blob/master/w01/find%20roots.cpp)
 * tempconvert.cpp	
 * welcome.cpp
 
