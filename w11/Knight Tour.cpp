@@ -26,7 +26,7 @@ Pos findNextPos(int m[][8],int row,int col) {
 	for(int i=0; i<8; i++) {
 		nextRow = row + v[i];
 		nextCol = col + h[i];
-		if(nextRow>=0 && nextRow<=7 && nextCol>=0 && nextRow<=7 && m[nextRow][nextCol]==0) {
+		if(nextRow>=0 && nextRow<=7 && nextCol>=0 && nextC<=7 && m[nextRow][nextCol]==0) {
 			pos.row = nextRow;
 			pos.col = nextCol;
 			return pos;
