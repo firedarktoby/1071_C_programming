@@ -20,7 +20,7 @@ void prArr(int m[][8]) {
 
 Pos findNextPos(int m[][8],int row,int col) {
 	int h[8]= {2,1,-1,-2,-2,-1,1,2};
-	int v[8]= {-1-2,-2,-1,1,2,2,1};
+	int v[8]= {-1,-2,-2,-1,1,2,2,1};
 	Pos pos;
 	int nextRow ,nextCol;
 	for(int i=0; i<8; i++) {
