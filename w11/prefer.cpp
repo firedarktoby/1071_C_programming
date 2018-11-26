@@ -70,7 +70,30 @@ Pos findNextBestPosNew(int access[][8],int row,int col) {
 	return pos;
 }
 
-
+int knightTour(int m[][8],int i,int j){
+	int moves=1;
+	int row;
+    int col;
+	Pos pos;
+	int access[ 8 ][ 8 ] =
+       { 2, 3, 4, 4, 4, 4, 3, 2,
+         3, 4, 6, 6, 6, 6, 4, 3,
+         4, 6, 8, 8, 8, 8, 6, 4,
+         4, 6, 8, 8, 8, 8, 6, 4,
+         4, 6, 8, 8, 8, 8, 6, 4,
+         4, 6, 8, 8, 8, 8, 6, 4,
+         3, 4, 6, 6, 6, 6, 4, 3,
+         2, 3, 4, 4, 4, 4, 3, 2
+	   };
+	for(int i=2; i<=64; i++) {
+        moves++;
+        pos = findNextBestPosNew(access,row,col);
+        m[pos.row][pos.col] = i;
+        row = pos.row;
+        col = pos.col;
+    }
+    return moves;
+}
 
 int main() {
 	
@@ -130,18 +153,19 @@ int main() {
 			}
             break;
         case 2:
-            /*int m[8][8]={0};
-  			int counting[8]][8];
+            int m[8][8]={0};
+  			int counting[8][8];
   			for(int i=0;i<7;i++){
     			for(int j=0;j<7;j++){
        				counting[i][j] = knightTour(m,i,j);
     			}
   			}
-  			prArr(counting);*/
+  			prArr(counting);
             break;
 		}
     }
 }
+
 
 
 
