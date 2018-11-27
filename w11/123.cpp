@@ -71,7 +71,7 @@ Pos findNextBestPosNew(int access[][8],int row,int col) {
 }
 
 int knightTour(int m[][8],int i,int j){
-	int moves=1;
+	int moves2=1;
 	int row;
     int col;
 	Pos pos;
@@ -85,16 +85,19 @@ int knightTour(int m[][8],int i,int j){
          3, 4, 6, 6, 6, 6, 4, 3,
          2, 3, 4, 4, 4, 4, 3, 2
 	   };
-	    for(int row=0;)
-    	m[row][col] = 1;
-		for(int k=2; i<=64; i++) {
-       	moves++;
-      	pos = findNextBestPos(access,row,col);
-       	m[pos.row][pos.col] = i;
-       	row = pos.row;        	
-		col = pos.col;
-    }
-    	return moves;
+	    for(int row=0;row<7;row++){
+    			for(int col=0;col<7;col++){
+    				m[row][col] = 1;
+					for(int k=2; i<=64; i++) {
+       				moves2++;
+      				pos = findNextBestPos(access,row,col);
+       				m[pos.row][pos.col] = i;
+       				row = pos.row;        	
+					col = pos.col;
+					}
+				}
+    	}
+    	return moves2;
 }
 
 int main() {
@@ -167,3 +170,4 @@ int main() {
 		}
     }
 }
+
